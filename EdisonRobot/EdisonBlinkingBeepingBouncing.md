@@ -12,7 +12,7 @@ You will need the following:
 
 1. Edison Robot (or more if you'd like to tackle the advanced Challenge)
 1. EdComm Programming Cable
-1. (Optional) Black marker & paper
+1. (Optional) Lego or some other obstacle making equipment
 
 <div class="page-break" />
 
@@ -139,22 +139,22 @@ Type in the name of your variable as ‘Light_Level’, select the variable rang
 
 A robot swarm is when many robots work together to solve a common problem. Generally the robots are small and by themselves aren’t very intelligent, but as a swarm they can achieve complex tasks (think of ants building a complex nest). The most important part of swarm robotics is communication. Without robot to robot communication a robot swarm is not impossible. Here is an introduction to robot communication.
 
-In this exercise you will need at least two Edison robots. The first Edison will bounce within a border and tell the second robot each time a border is encountered. The second robot will use this information to mimic the first robot and will seem to bounce in side an invisible border.
+In this exercise you will need at least two Edison robots. The first Edison will detect obstacles and tell the second robot each time an obstacle is encountered. The second robot will use this information to mimic the first robot and will seem to detect invisible obstacles.
 
-Write the following program for the first Edison (Edison with borders) but first create a new *variable* called **Black_Line** of *type* **0-255** and set the *Initial Value* to **1**.
+Write the following program for the first Edison (Edison with borders) but first create a new *variable* called **bounce** of *type* **0-255** and set the *Initial Value* to **1**.
 
-![](images/line_detector_master.png)
+![](images/obstacle-detector-master.png)
 
 ### How does it work?
 
-1. The first icon turns on the line tracking sensor LED.
+1. The first icon turns on the obstacle detector.
 1. The program then enters an endless loop.
-1. The IF icon in the loop checks the state of the line tracking sensor, if the surface is white (reflective) then the dual drive icon drives Edison forward at speed 4.
-1. If the surface is black (non-reflective) then the contents of the variable ‘Black_Line’ (1) is transmitted. Edison then reverse-turns for 0.25 seconds and repeats the loop.
+1. The IF icon in the loop checks the state of the obstacle detecting sensor, if it does detect an obstacle then the top line is executed. It needs to turn off the obstacle detector in order to send data to the slave robot (the obstacle detector and data transmitter use the same hardware and both cannot work at the same time), transmits the data, turns to the left for 0.7 seconds and then turns on the obstacle detector again.
+1. If no obstacle is detected, then the robot continues onwards.
 
 Write the following program for your second Edison:
 
-![](images/line_detector_slave.png)
+![](images/obstacle_detector_slave.png)
 
 ### How does it work?
 
@@ -166,9 +166,5 @@ Write the following program for your second Edison:
 1. The loop is then repeated.
 
 ### What to do
-1. Print the track on the next page and place the first Edison inside the border. Place the second Edison outside the border and press the play button on both Edisons. If you don't have access to a printed page then get a black marker and a page and make your own black circle.
-1. The Edison inside the border will not leave the oval and the second Edison will mimic the firsts every move.
-
-<div class="page-break" />
-
-![](images/ring.png)
+1. Create your own obstacle course using whatever comes to hand
+1. The Edison inside the obstacle course will not run into obstacles and the second Edison will mimic the firsts every move.
