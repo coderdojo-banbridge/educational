@@ -1,0 +1,32 @@
+{
+  "series_title": "Minecraft: Lights and Sensors",
+  "language": "en",
+  "subject": "python",
+  "description": "Take a look at connecting our computer to simple circuits with LEDs and sensors and then using our programs to react to events and control things. These programs will be built in Python. Finally we'll dig into how we can interact with both Minecraft and our circuits.",
+  "author": "CoderDojo Banbridge",
+  "website": "coderdojo-banbridge.github.io",
+  "twitter": "CoderDojoBanb",
+  "difficulty": 2,
+  "cards": [
+    {
+      "title": "Build Your Circuit",
+      "filename": "01",
+      "card_number": 1
+    },
+    {
+      "title": "Let's Get Started With Python",
+      "filename": "02",
+      "card_number": 2
+    },
+    {
+      "title": "Controlling a Light From Minecraft",
+      "filename": "03",
+      "card_number": 3
+    },
+    {
+      "title": "Let's add a Teleport Switch",
+      "filename": "04",
+      "card_number": 4
+    }
+  ]
+}

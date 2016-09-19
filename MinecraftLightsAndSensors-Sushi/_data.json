@@ -1,0 +1,58 @@
+{
+  "01": {
+    "title": "Build Your Circuit",
+    "filename": "01",
+    "language": "python",
+    "subject": "python",
+    "card_number": 1,
+    "series_total_cards": 4,
+    "series_title": "Minecraft: Lights and Sensors",
+    "author": {
+      "name": "CoderDojo Banbridge",
+      "twitter": "CoderDojoBanb",
+      "website": "coderdojo-banbridge.github.io"
+    }
+  },
+  "02": {
+    "title": "Let's Get Started With Python",
+    "filename": "02",
+    "language": "python",
+    "subject": "python",
+    "card_number": 2,
+    "series_total_cards": 4,
+    "series_title": "Minecraft: Lights and Sensors",
+    "author": {
+      "name": "CoderDojo Banbridge",
+      "twitter": "CoderDojoBanb",
+      "website": "coderdojo-banbridge.github.io"
+    }
+  },
+  "03": {
+    "title": "Controlling a Light From Minecraft",
+    "filename": "03",
+    "language": "python",
+    "subject": "python",
+    "card_number": 3,
+    "series_total_cards": 4,
+    "series_title": "Minecraft: Lights and Sensors",
+    "author": {
+      "name": "CoderDojo Banbridge",
+      "twitter": "CoderDojoBanb",
+      "website": "coderdojo-banbridge.github.io"
+    }
+  },
+  "04": {
+    "title": "Let's add a Teleport Switch",
+    "filename": "04",
+    "language": "python",
+    "subject": "python",
+    "card_number": 4,
+    "series_total_cards": 4,
+    "series_title": "Minecraft: Lights and Sensors",
+    "author": {
+      "name": "CoderDojo Banbridge",
+      "twitter": "CoderDojoBanb",
+      "website": "coderdojo-banbridge.github.io"
+    }
+  }
+}
