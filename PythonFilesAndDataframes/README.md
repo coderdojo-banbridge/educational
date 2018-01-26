@@ -1,7 +1,7 @@
 # General Notes
 This repo contains some sample python files to help with the CoderDojo Banbridge Astro Pi Space Mission Project.
 
-##filenaming.py
+## filenaming.py
 This shows some examples of generating file names with timestamps in them.
 I put in an example of creating 10 simple text files with different names.
 You will be creating csv files as explained in the data frame stuff below.
